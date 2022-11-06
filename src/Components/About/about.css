@@ -1,6 +1,13 @@
 .profilepic{
-    width: 15em;
-    height: 15em;
-    padding: 20px;
     float: left;
-  }
+    padding:20px;
+    width: 200px;
+    height: 200px;
+}
+
+.flipitemback{
+    text-align: left;
+    border: 1px solid grey;
+    padding:15;
+    margin: 15;
+}
