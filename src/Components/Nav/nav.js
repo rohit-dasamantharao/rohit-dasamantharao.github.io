@@ -1,5 +1,5 @@
 
-import { Menu,Image } from 'tiny-ui'
+import { Menu } from 'tiny-ui'
 import 'tiny-ui/dist/styles/index.css';
 import './nav.css'
 
