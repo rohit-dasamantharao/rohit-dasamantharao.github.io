@@ -1,0 +1,7 @@
+.card{
+    margin:15px;
+    width:350px;
+    height:455px;
+    background-color:rgba(240, 255, 255, 0.193);
+    float: left;
+}
