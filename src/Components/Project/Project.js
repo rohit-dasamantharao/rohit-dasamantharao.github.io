@@ -4,7 +4,7 @@ import { Link } from '@mui/material';
 import 'tiny-ui/dist/styles/index.css';
 import './Project.css'
 
-function Project({projname,desc,techused,gitlink,libandothers}) {
+function Project({projname,desc,techused,gitlink,libandframe}) {
   return (
     <>
         <Card className='card'>
@@ -22,11 +22,11 @@ function Project({projname,desc,techused,gitlink,libandothers}) {
                 </center>
                 
                 {
-                    libandothers !=null ?
+                    libandframe !=null ?
                     <>
-                        <Divider align='center'>Libraries and others</Divider>
+                        <Divider align='center'>Libraries and Frameworks</Divider>
                         <center>
-                        {libandothers}
+                        {libandframe}
                         </center>
                     </>
                     :<></>

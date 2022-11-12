@@ -21,3 +21,14 @@ h4{
     text-align: center;
     font-size: x-large;
 }
+.Nodejs{
+    font-size: 45px;
+    color: green;
+    margin: 5px;
+}
+.Typescript{
+    font-size: 28px;
+    color: #2f74c0;
+    background-color: white;
+    margin: 5px;
+}

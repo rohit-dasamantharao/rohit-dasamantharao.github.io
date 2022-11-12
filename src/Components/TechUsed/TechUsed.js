@@ -1,7 +1,8 @@
 import { Menu,Image,Tooltip } from 'tiny-ui'
 import 'tiny-ui/dist/styles/index.css';
 import './TechUsed.css'
-import { SiJavascript, SiCss3, SiHtml5, SiGithub } from "react-icons/si";
+import { SiJavascript, SiCss3, SiHtml5, SiGithub, SiTypescript } from "react-icons/si";
+import {DiNodejs} from "react-icons/di"
 
 const Javascript = ()=> {
   return (
@@ -33,5 +34,11 @@ const Csharp = () => {
         <SiGithub fontSize={28}/>
     );
   }
+  const Nodejs = () =>{
+    return(<Tooltip title="NodeJs"><span><DiNodejs className='Nodejs'/></span></Tooltip>);
+  }
+  const TypeScript = ()=>{
+    return(<Tooltip title="TypeScript"><span><SiTypescript className='Typescript'/></span></Tooltip>)
+  }
 
-  export default {"Javascript":Javascript,"Html":Html,"Css":Css,"Sql":Sql,"Csharp":Csharp,"Github":Github}
+  export default {"Javascript":Javascript,"Html":Html,"Css":Css,"Sql":Sql,"Csharp":Csharp,"Github":Github,"Nodejs":Nodejs,"TypeScript":TypeScript}
